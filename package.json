@@ -4,7 +4,10 @@
   "description": "id6 react integration",
   "author": "id6",
   "license": "MIT",
-  "repository": "id6/id6-react",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/id6/id6-react"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
