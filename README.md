@@ -3,10 +3,12 @@
     <img alt="id6-logo" src="https://raw.githubusercontent.com/id6/id6-brand/latest/logo/id6-logo-purple.svg" width="100"/>
   </a>
 </p>
-<h1 align="center">id6-express</h1>
+<h1 align="center">id6-react</h1>
 <p align="center">React integration for id6</p>
 
-[![NPM](https://img.shields.io/npm/v/id6/react.svg)](https://www.npmjs.com/package/@id6/react)
+<p align="center">
+  <img alt="npm" src="https://img.shields.io/npm/v/@id6/react">
+</p>
 
 ## Install
 
