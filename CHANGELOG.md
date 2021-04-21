@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/id6/id6-react/compare/v1.0.1...v1.0.2) (2021-04-21)
+
+
+### Bug Fixes
+
+* publish on npm ([3ce306c](https://github.com/id6/id6-react/commit/3ce306c5a42d02ac7d793780132cd7619cd42d43))
+
 ## [1.0.1](https://github.com/id6/id6-react/compare/v1.0.0...v1.0.1) (2021-04-13)
 
 
