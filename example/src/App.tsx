@@ -1,6 +1,5 @@
 import React from 'react';
-import { useAuth } from '@id6/react';
-import { AuthProvider } from '../../src';
+import { AuthProvider, useAuth } from '@id6/react';
 
 function Home() {
   const { loading, error, user, signOut } = useAuth();
@@ -19,6 +18,7 @@ function Home() {
         <p>
           Signed in as {user.name}
           <button type="button" onClick={logout}>Sign out</button>
+          <a href={process.env.REACT_APP_ID6_LOGIN_URL}>Edit profile</a>
         </p>
       ) : (
         <a href={process.env.REACT_APP_ID6_LOGIN_URL}>Sign in</a>

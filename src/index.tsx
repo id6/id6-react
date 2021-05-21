@@ -32,7 +32,7 @@ export function AuthProvider({ url, ...props }: {
   const signOut = () => {
     return fetch(`${url}/api/auth/signout`, {
       method: 'post',
-      credentials: 'include'
+      credentials: 'include',
     } as any).then(() => {
       setUser(null);
     });
@@ -41,7 +41,7 @@ export function AuthProvider({ url, ...props }: {
   const fetchUser = () => {
     setLoading(true);
     fetch(`${url}/api/user`, {
-      credentials: 'include'
+      credentials: 'include',
     })
       .then(res => res.json())
       .then(setUser)
@@ -64,7 +64,7 @@ export function AuthProvider({ url, ...props }: {
         error,
         user,
         fetchUser,
-        signOut
+        signOut,
       }}
       {...props}
     />
