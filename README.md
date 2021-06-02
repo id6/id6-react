@@ -41,7 +41,7 @@ function Home() {
           <button type="button" onClick={logout}>Sign out</button>
         </p>
       ) : (
-        <a href={process.env.REACT_APP_ID6_LOGIN_URL}>Sign in</a>
+        <a href="https://authorize.company.com">Sign in</a>
       )}
     </div>
   );
@@ -49,7 +49,7 @@ function Home() {
 
 function App() {
   return (
-    <AuthProvider url="http://id6.company.com">
+    <AuthProvider url="https://authorize.company.com">
       <Home/>
     </AuthProvider>
   );
